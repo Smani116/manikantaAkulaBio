@@ -101,16 +101,14 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Houston - Clear Lake ",
-      logo: require("../../manikantaAkulaBio/src/assets/images/uhcllogo.png"),
+      logo: require("./assets/images/uhcllogo.png"),
       subHeader: "Master of Computer Software Engineering",
-      duration: "January 2021 - April 2022",
       desc: "Gained skills and knowledge to take charge of design, development and maintenance of computer software"
     },
     {
       schoolName: "GITAM University",
-      logo: require("../../manikantaAkulaBio/src/assets/images/gitamLogo.png"),
+      logo: require("./assets/images/gitamLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "August 2014 - May 2018",
       desc: " Software Engineering, Web Security, Operating Systems"
     }
   ]
@@ -123,11 +121,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Testing",
-      progressPercentage: "50%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Programming",
@@ -145,19 +143,18 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Tabner Inc",
-      companylogo: require("../../manikantaAkulaBio/src/assets/images/tabnerLogo.png"),
-      date: "March 2022 – Present",
-      desc: "",
+      companylogo: require("./assets/images/tabnerLogo.png"),
+
     },
     {
       role: "Front-End Developer",
       company: "Konfig",
-      companylogo: require("../../manikantaAkulaBio/src/assets/images/konfig.svg")
+      companylogo: require("./assets/images/konfig.svg")
     },
     {
       role: "Systems Analyst",
       company: "TCS",
-      companylogo: require("../../manikantaAkulaBio/src/assets/images/tcsLogo.png"),
+      companylogo: require("./assets/images/tcsLogo.png"),
     }
   ]
 };
@@ -167,7 +164,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
