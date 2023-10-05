@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "S S Manikanta Akula",
-  title: "Hi all, I'm S S Manikanta Akula",
+  username: "Sai Manikanta Akula",
+  title: "Hi all, I'm Sai Manikanta Akula",
   subTitle: emoji(
       "UI  Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Nodejs / Angular and some other cool libraries and frameworks."
   ),
@@ -58,6 +58,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -121,16 +125,12 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "85%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Testing",
-      progressPercentage: "75%"
+      progressPercentage: "95%"
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -140,6 +140,12 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Angular Front End Developer",
+      company: "TIAA ",
+      companylogo: require("./assets/images/tiaaLogo.png"),
+
+    },
     {
       role: "Software Engineer",
       company: "Tabner Inc",
@@ -329,7 +335,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "saiakula09", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
