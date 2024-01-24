@@ -129,7 +129,7 @@ const techStack = {
     },
     {
       Stack: "Testing",
-      progressPercentage: "95%"
+      progressPercentage: "90%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -153,11 +153,6 @@ const workExperiences = {
 
     },
     {
-      role: "Front-End Developer",
-      company: "Konfig",
-      companylogo: require("./assets/images/konfig.svg")
-    },
-    {
       role: "Systems Analyst",
       company: "TCS",
       companylogo: require("./assets/images/tcsLogo.png"),
@@ -170,7 +165,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -327,7 +322,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
       "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1 - (737)-229-0323",
+  number: "+1 - (707)-606-1165",
   email_address: "saimanikanta6116@outlook.com"
 };
 
